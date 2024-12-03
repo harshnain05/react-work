@@ -4,8 +4,8 @@ const Footer = ({ props }) => {
   const location = useLocation().pathname;
   return (
     <div className={`${location === "/"
-      ? "flex flex-col justify-center items-center bg-[#1E1E1E] pt-20 rounded-t-[30px]" : "flex flex-col justify-center items-center bg-[#002B43] pt-20"
-      }`}>
+      ? " rounded-t-[30px]" :
+      }flex flex-col justify-center items-center bg-[#1E1E1E] pt-20`}>
       <div className="container mx-auto px-3 max-w-[1140px]">
         <div className="flex flex-wrap mx-auto justify-center items-center">
           <div className='lg:w-6/12 w-full'>
